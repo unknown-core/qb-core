@@ -37,7 +37,7 @@ local function onPlayerConnecting(name, setKickReason, deferrals)
     deferrals.update(string.format(Lang:t('info.checking_ban'), name))
 
     for _, v in pairs(identifiers) do
-        if string.find(v, 'license') then
+        if string.find(v, QBConfig.Server.Identifier) then
             license = v
             break
         end
