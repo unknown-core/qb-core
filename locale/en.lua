@@ -8,8 +8,8 @@ local Translations = {
         company_too_poor = 'Your employer is broke',
         item_not_exist = 'Item does not exist',
         too_heavy = 'Inventory too full',
-        duplicate_license = 'Duplicate Rockstar License Found',
-        no_valid_license  = 'No Valid Rockstar License Found',
+        duplicate_license = 'Duplicate Steam Account Found',
+        no_valid_license  = 'No Steam Account Found',
         not_whitelisted = 'You\'re not whitelisted for this server'
     },
     success = {},
